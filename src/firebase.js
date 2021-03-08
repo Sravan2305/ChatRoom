@@ -2,7 +2,6 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 import 'firebase/auth'
 
-import {useCollectionData} from 'react-firebase-hooks/firestore'
 
     const firebaseConfig = {
         apiKey: "AIzaSyCcm9JuJySt0ijMTWiF4vxiKKvKIUZhICA",
@@ -18,7 +17,6 @@ import {useCollectionData} from 'react-firebase-hooks/firestore'
     firebase.initializeApp(firebaseConfig)
     
 
-    const firestore = firebase.firestore()
 
     
     export default firebase
