@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ChatMessage(props) {
-    const {message , time , username, userphoto } = props.message
+    const {message } = props.message
     console.log(props.message)
     return (
         <div>

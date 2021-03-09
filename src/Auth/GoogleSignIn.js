@@ -1,7 +1,7 @@
 import React from "react";
 import firebase from '../firebase'
 
-function SignIn() {
+function GoogleSignIn() {
     const auth = firebase.auth()
     const signInwithGoogle = ()=>{
         const provider = new firebase.auth.GoogleAuthProvider();
@@ -17,4 +17,4 @@ function SignIn() {
   );
 }
 
-export default SignIn;
+export default GoogleSignIn;
